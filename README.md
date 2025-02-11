@@ -16,6 +16,8 @@ A **desktop application** built with **Electron** and **JavaScript** to generate
 - **Procreate**: Used for creating heart gif. 🎨
 
 
+![Desktop App Screenshot](assets/affirmations-app-ss.png)
+
 ### Installation 🛠️
 
 To get started with the Affirmations App, clone this repository to your local machine:
