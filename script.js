@@ -1,3 +1,6 @@
+let displayedAffirmations = [];  ///stores indices of displayed books
+
+
 async function loadAffirmations(){
     //try...catch statement is comprised of a try block and either a 
     // catch block, a finally block, or both. The code in the try 
@@ -18,10 +21,25 @@ async function loadAffirmations(){
 
 async function displayAffirmation(){
     const affirmations = await loadAffirmations();
-    if(affirmations.length > 0){
-        const randomIndex = Math.floor(Math.random() * affirmations.length);
-        document.getElementById("affirmation").innerText = affirmations[randomIndex];
+
+    if(displayedAffirmations.length === affirmations.length){
+        displayedAffirmations = [];
     }
+    
+    let randomIndex;
+    do{
+        randomIndex = Math.floor(Math.random() * affirmations.length);
+    } while(displayedAffirmations.includes(randomIndex));
+
+    displayedAffirmations.push(randomIndex);
+
+    document.getElementById("affirmation").innerText = affirmations[randomIndex];
+
+
+    // if(affirmations.length > 0){
+    //     const randomIndex = Math.floor(Math.random() * affirmations.length);
+    //     document.getElementById("affirmation").innerText = affirmations[randomIndex];
+    // }
 }
 
 //change affirmation onclick
