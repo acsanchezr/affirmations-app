@@ -4,10 +4,10 @@ A **desktop application** built with **Electron** and **JavaScript** to generate
 
 ### Features
 - **Random Affirmation Generator**: Click a button to generate an affirmation.
-- **Background Music**: Play soothing background music ("Hibiscus" by [Purrple Cat](https://purrplecat.com/). 
+- **Background Music**: Play soothing background music ("Hibiscus" by [Purrple Cat](https://purrplecat.com/)). 
 - **Cute Design**: Customizable window with a cozy, aesthetic vibe. 🌸
 
-### Technologies Used 🛠️
+### 🛠️ Technologies Used 
 - **Electron**: Framework to build the desktop app. 💻
 - **HTML/CSS**: Used for user interface.
 - **JavaScript**: Used to handle the app's functionality and interaction with the user. 
@@ -16,7 +16,9 @@ A **desktop application** built with **Electron** and **JavaScript** to generate
 - **Procreate**: Used for creating heart gif. 🎨
 
 
-### Installation 🛠️
+![Desktop App Screenshot](assets/affirmations-app-ss.png)
+
+### 🛠️ Installation 
 
 To get started with the Affirmations App, clone this repository to your local machine:
 
@@ -44,7 +46,7 @@ git clone https://github.com/YOUR-USERNAME/affirmations-app.git
 2. Click the **"Give me a new one!"** button to generate a different affirmation. ✨
 3. Use the **"🎶 Play/Pause Music"** button to toggle soothing background music on or off. 
 
-### Customization 🛠️
+### 🎨 Customization
 - You can update the **affirmations.json** file with your own affirmations to personalize the app. ✍️
 - Modify the **design** and **styling** by updating the `index.html` and `styles.css` files. 💅
 - Modify **window appearance** by changing `index.js`.
